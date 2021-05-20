@@ -1,0 +1,487 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        background: #FFFFFF;
+        height: 85px;
+    }
+    
+    .img {
+        background: url(/Rectangle.jpg) no-repeat center/cover;
+        height: 956px;
+    }
+    
+    .menu {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .menu li a {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #241C15;
+        text-decoration: none;
+        padding: 34px 44px 36px 44px;
+        margin-left: 16px;
+    }
+    
+    .logo {
+        margin-left: 200px;
+    }
+    
+    .log {
+        margin-left: 340px;
+        margin-right: 24px;
+        padding: 12px 29px 11px 29px;
+        background: #FFFFFF;
+        border: 1px solid black;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #241C15;
+    }
+    
+    .sign {
+        padding: 12px 29px 11px 29px;
+        background: #FFFFFF;
+        border: 1px solid black;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #241C15;
+    }
+    
+    .sign:hover {
+        background: #007C89;
+        color: #FFFFFF;
+        border: none;
+        transition-duration: 1s;
+    }
+    
+    .log:hover {
+        background: #007C89;
+        color: #FFFFFF;
+        border: none;
+        transition-duration: 1s;
+    }
+    
+    .bar {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        padding-top: 54px;
+        margin-bottom: 30px;
+    }
+    
+    .bar li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #241C15;
+        padding-right: 35px;
+    }
+    
+    .faq {
+        margin-right: 131px;
+    }
+    
+    .bar li a:hover {
+        color: #692340;
+        text-decoration: underline;
+    }
+    
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1340px;
+    }
+    
+    .grow {
+        font-weight: 700;
+        font-size: 74px;
+        line-height: 74px;
+        letter-spacing: 1px;
+        color: #692340;
+        margin-bottom: 38px;
+    }
+    
+    .text {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #692340;
+        margin-bottom: 38px;
+    }
+    
+    .join {
+        padding: 20px 40px 19px 40px;
+        background: #692340;
+        box-shadow: 0px 0px 0px #431629;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FBEECA;
+        border: none;
+        margin-bottom: 40px;
+    }
+    
+    .new {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #692340;
+    }
+    
+    .benefits {
+        font-weight: bold;
+        font-size: 51px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #692340;
+        padding-top: 124px;
+        padding-bottom: 37px;
+    }
+    
+    .help {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #692340;
+        margin-bottom: 147px;
+    }
+    
+    .flex-img {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 180px;
+    }
+    
+    .biss {
+        padding-top: 31px;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        color: #692340;
+        margin-bottom: 22px;
+    }
+    
+    .find {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #692340;
+    }
+    
+    .ping2 {
+        margin-left: 49px;
+    }
+    
+    .flex-market {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 115px;
+    }
+    
+    .metr {
+        font-weight: normal;
+        font-size: 112px;
+        line-height: 150px;
+        color: #692340;
+        margin-bottom: 15px;
+    }
+    
+    .for {
+        font-weight: normal;
+        font-size: 39px;
+        line-height: 44px;
+        color: #692340;
+        margin-bottom: 20px;
+    }
+    
+    .freelance {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #692340;
+    }
+    
+    .flex-info {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 134px;
+    }
+    
+    .joy {
+        margin-top: 63px;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 44px;
+        color: #692340;
+        margin-bottom: 22px;
+    }
+    
+    .member {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #692340;
+        margin-bottom: 15px;
+    }
+    
+    .text-idt {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #692340;
+        text-indent: 16px;
+    }
+    
+    .see {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 16px;
+        color: #692340;
+    }
+    
+    .flex-partner {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 128px;
+    }
+    
+    .rob {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 44px;
+        color: #692340;
+        margin-bottom: 73px;
+    }
+    
+    .danny {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #692340;
+    }
+    
+    .account {
+        background: #FBEECA;
+    }
+    
+    .info-bottom {
+        padding-top: 116px;
+        text-align: center;
+    }
+    
+    .alredy {
+        font-weight: bold;
+        font-size: 51px;
+        line-height: 54px;
+        letter-spacing: 0.5px;
+        color: #692340;
+        padding-bottom: 37px;
+    }
+    
+    .good {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #692340;
+        padding-bottom: 27px;
+    }
+    
+    .coss {
+        padding: 20px 40px 19px 40px;
+        background: none;
+        border: 1px solid #692340;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        color: #692340;
+        margin-bottom: 216px;
+    }
+    
+    .glav {
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        text-align: center;
+        color: #692340;
+        padding-top: 118px;
+        margin-bottom: 119px;
+    }
+    
+    .flex-tips {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 68px;
+    }
+    
+    .tips1 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 55px;
+        color: #692340;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    
+    .tips2 {
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 30px;
+        color: #692340;
+        padding-bottom: 15px;
+    }
+    
+    .tips3 {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 29px;
+        color: #692340;
+    }
+    
+    .coss1 {
+        padding: 20px 40px 19px 40px;
+        background: none;
+        border: 1px solid #692340;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        color: #692340;
+        margin-bottom: 140px;
+    }
+    
+    .flex-knopka {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .kn1 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        color: #692340;
+        margin-bottom: 30px;
+    }
+    
+    .red {
+        background: #692340;
+    }
+    
+    .int {
+        text-align: center;
+    }
+    
+    .in1 {
+        font-weight: normal;
+        font-size: 74px;
+        line-height: 74px;
+        letter-spacing: 1px;
+        color: #FBEECA;
+        padding-bottom: 36px;
+        padding-top: 114px;
+    }
+    
+    .in2 {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FBEECA;
+        padding-bottom: 30px;
+    }
+    
+    .coss2 {
+        padding: 20px 40px 19px 40px;
+        background: #FBEECA;
+        box-shadow: 0px 0px 0px #FBEECA;
+        border: none;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #692340;
+        margin-bottom: 20px;
+    }
+    
+    .in3 {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FBEECA;
+        padding-bottom: 120px;
+    }
+    
+    footer {
+        background: #EFEEEA;
+    }
+    
+    .flex-footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 74px;
+        border-bottom: 1px solid #8C8C8C;
+    }
+    
+    .foot {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 29px;
+        padding-top: 118px;
+        color: #241C15;
+    }
+    
+    .foot1 {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 13px;
+        color: #241C15;
+    }
+    
+    .foot2 {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 70px;
+        color: #241C15;
+    }
+    
+    .footer-img {
+        padding-top: 120px;
+        padding-bottom: 13px;
+    }
+    
+    .bottom-kn {
+        text-align: center;
+        padding-top: 73px;
+        margin-left: 382px;
+        padding-bottom: 20px;
+    }
+    
+    .kn3 {
+        padding: 8px 8px 8px 8px;
+        background: none;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #403B3B;
+        border: 1px solid black;
+    }
+    
+    .flex-icon {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 134px;
+    }
