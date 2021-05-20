@@ -10,7 +10,7 @@
     }
     
     .img {
-        background: url(/Rectangle.jpg) no-repeat center/cover;
+        background: url(./img/Rectangle.jpg) no-repeat center/cover;
         height: 956px;
     }
     
